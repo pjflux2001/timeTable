@@ -10,6 +10,6 @@ var registrationSchema = new mongoose.Schema({
     midsemtime:String,
     compredate:String,
     compretime:String
-});
+},{collection:"registration"});
 
 module.exports = mongoose.model("Registration",registrationSchema);
