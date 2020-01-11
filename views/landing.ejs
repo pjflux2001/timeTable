@@ -1,7 +1,7 @@
 <%- include ('./partials/header') %>
 	
 	<form action="/" method="post">
-		<input type="text" name="detail" placeholder="Enter your id here">
+		<input type="text" pattern="[0-2]{2}[0-9]{2}[A-Z]{4}[0-9]{4}[G|P|H]" name="detail" placeholder="Enter Your 13 Digit BITS ID here">
 		<button>Submit</button>
 	</form>
 
